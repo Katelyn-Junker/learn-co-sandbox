@@ -6,5 +6,6 @@ submitButton.addEventListener('click', (event) =>{
     .then((response) =>response.json)
     .then((movieJson) =>{
       const title = document.querySelector('#title')
+      
     })
 })
