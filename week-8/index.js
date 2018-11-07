@@ -10,7 +10,7 @@ submitButton.addEventListener('click', (event) =>{
       const year = document.querySelector('#year')
       
       title.innerText = movieJson['Title']
-      title.innerText = movieJson['Title']
-      
+      rated.innerText = movieJson['Rated']
+      year.innerText = movieJson['Year']
     })
 })
