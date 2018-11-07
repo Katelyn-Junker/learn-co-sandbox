@@ -10,5 +10,6 @@ submitButton.addEventListener('click', (event) =>{
       const year = document.querySelector('#year')
       
       title.innerText = movieJson['Title']
+      
     })
 })
